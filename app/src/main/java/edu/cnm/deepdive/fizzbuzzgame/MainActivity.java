@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     super.onStop();
   }
 
-  private void refresh() {
+  void refresh() {
     boolean fizz = (value % 3 == 0);
     boolean buzz = (value % 5 == 0);
     if (value != 0) {
